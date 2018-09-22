@@ -17,7 +17,7 @@ pygame.init()
 displayResolution = pygame.display.list_modes()[0]
 screen = pygame.display.set_mode(
     displayResolution,
-    pygame.FULLSCREEN,
+    pygame.RESIZABLE,
     )
 
 #create surface to draw on
