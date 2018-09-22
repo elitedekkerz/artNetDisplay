@@ -12,6 +12,7 @@ offset = firstChannel + 0
 
 #setup pygame
 pygame.init()
+pygame.mouse.set_visible(False)
 
 #create a fullscreen display
 displayResolution = pygame.display.list_modes()[0]
